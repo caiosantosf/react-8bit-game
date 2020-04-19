@@ -1,15 +1,19 @@
 import React from 'react'
 import './index.css'
+import { TILE_SIZE } from '../../settings/constants'
 
 const Hero = () => {
   return (
     <div 
       style = {{
-        width: 48,
+        position: 'absolute',
+        bottom: 48,
+        left: 0,
+        width: TILE_SIZE,
         height: 100,
         backgroundImage: "url(./assets/HERO.png)",
         backgroundRepeat: 'no-repeat',
-        animation: 'hero-animation 1s infinite'
+        animation: 'hero-animation 1s steps(4) infinite'
       }}
     ></div>
   )
