@@ -1,3 +1,3 @@
 8-bit style game developed with React during Heroway's React4Gamers course
 
-![Game](./public/readme.png)
+![Game](./public/assets/readme.png)
